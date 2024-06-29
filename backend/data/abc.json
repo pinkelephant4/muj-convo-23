@@ -1,0 +1,86 @@
+[
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "171105022",
+    "student_name": "RAGHVENDRA SINGH RATHORE",
+    "gender": "M",
+    "batch": "2017",
+    "credits": "150",
+    "cgpa": "6.45",
+    "email": "Raghvendra.171105022@muj.manipal.edu"
+    },
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "181105004",
+    "student_name": "HRITAVYA SUTHAR",
+    "gender": "M",
+    "batch": "2018",
+    "credits": "150",
+    "cgpa": "8.23",
+    "email": "hritavya.181105004@muj.manipal.edu"
+    },
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "181105008",
+    "student_name": "KHUBI AGARWAL",
+    "gender": "F",
+    "batch": "2018",
+    "credits": "150",
+    "cgpa": "9.25",
+    "email": "khubi.181105008@muj.manipal.edu"
+    },
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "181105011",
+    "student_name": "DHEERAJ KUMAR TAK",
+    "gender": "M",
+    "batch": "2018",
+    "credits": "150",
+    "cgpa": "7.18",
+    "email": "dheeraj.181105011@muj.manipal.edu"
+    },
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "181105013",
+    "student_name": "ESHAN BUTALIA",
+    "gender": "M",
+    "batch": "2018",
+    "credits": "150",
+    "cgpa": "6.93",
+    "email": "eshan.181105013@muj.manipal.edu"
+    },
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "181105014",
+    "student_name": "VIJAY LAXMI KANWAR",
+    "gender": "F",
+    "batch": "2018",
+    "credits": "150",
+    "cgpa": "6.56",
+    "email": "vijay.181105014@muj.manipal.edu"
+    },
+    {
+    "faculty": "Faculty of Arts and Law",
+    "school": "SCHOOL OF HUMANITIES & SOCIAL SCIENCES",
+    "programme": "BA (LIBRAL ART)�",
+    "reg_no": "181105015",
+    "student_name": "DHRUV SHEORAN",
+    "gender": "M",
+    "batch": "2018",
+    "credits": "150",
+    "cgpa": "7.59",
+    "email": "dhruv.181105015@muj.manipal.edu"
+    }
+    ]

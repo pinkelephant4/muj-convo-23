@@ -1,0 +1,28 @@
+[
+  {
+    "faculty": "Faculty of Management & Commerce",
+    "school": "SCHOOL OF BUSINESS & COMMERCE",
+    "programme": "PH.D",
+    "specialization": "Doctorate",
+    "reg_no": 150904605,
+    "student_name": "Varun Ramnani",
+    "gender": "M",
+    "batch": 2015,
+    "credits": 10,
+    "cgpa": 10,
+    "email": "varunhhhrahul@gmail.com"
+  },
+  {
+    "faculty": "Faculty of Management & Commerce",
+    "school": "SCHOOL OF BUSINESS & COMMERCE",
+    "programme": "PH.D",
+    "specialization": "Doctorate",
+    "reg_no": 150904604,
+    "student_name": "Akshit Suri",
+    "gender": "M",
+    "batch": 2015,
+    "credits": 10,
+    "cgpa": 10,
+    "email": "a.akshitsuri@gmail.com"
+  }
+]

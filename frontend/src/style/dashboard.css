@@ -1,0 +1,303 @@
+/* * {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dash-layer {
+  display: flex;
+  background: rgba(225, 84, 20, 1);
+}
+
+.dash-vector {
+  z-index: 100;
+  width: 20%;
+  height: 10%;
+}
+
+.dash-super {
+  background-color: white;
+  width: 75%;
+}
+.dash-mainy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5%;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.dash-main-left {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  border: solid 2px;
+  border-radius: 10px;
+}
+
+.dash-left-div {
+  
+  padding-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dash-details-head {
+  padding: 10px;
+}
+
+.dash-deet-table {
+  padding: 50px;
+  border: solid 2px black;
+}
+
+.left-companions-div {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.companions {
+  width: 750%;
+  margin: 5px;
+}
+/* .companions-select{
+  width: 25%;
+} */
+
+/* .attendDiv {
+  width: 87%;
+  text-align: left;
+}
+
+.infoCheckDiv {
+  width: 86%;
+}
+
+.confirmBtn {
+  margin: 20px;
+}  */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dash-layer {
+  display: flex;
+  background: rgba(225, 84, 20, 1);
+}
+
+.dash-vector {
+  z-index: 100;
+  width: 20%;
+  height: 10%;
+}
+
+.dash-super {
+  background-color: white;
+  width: 75%;
+}
+
+.logo {
+  height: 70%;
+  padding: 10px;
+  margin-left: 20px;
+}
+.nav-btn-div {
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  padding: 10px;
+  margin-right: 25px;
+  font-size: x-large;
+}
+
+.dash-mainy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5%;
+  padding-right: 0;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.dash-main-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.dash-left-div {
+  border: solid 2px rgba(225, 84, 20, 1);
+  border-radius: 10px;
+  padding-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.05rem;
+}
+.dash-details-head {
+  padding: 10px;
+}
+
+.dash-table-div {
+  width: 100%;
+}
+
+.saved-table-div {
+  width: 50%;
+  font-size: 1.05rem;
+}
+
+.dash-deet-table {
+  padding: 50px;
+  border: solid 2px black;
+}
+
+.dash-left-companions-div {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.dash-companions {
+  width: 750%;
+  margin: 5px;
+}
+/* .companions-select{
+  width: 25%;
+} */
+
+.dash-attendDiv {
+  width: 87%;
+  text-align: left;
+  /* padding: 0 20px; */
+}
+
+.dash-infoCheckDiv {
+  width: 86%;
+}
+
+.dash-confirmBtn {
+  margin: 20px;
+}
+
+.right-div {
+  width: 50%;
+  padding-top: 20px;
+  /* padding: 10px 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 2px rgba(225, 84, 20, 1);
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.comm-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comm-inp,
+.refund-inp {
+  margin-top: 35px;
+}
+.refund-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.refund-inp-div {
+  /* margin-top: px; */
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.comm-inp-div {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 30px; */
+  width: 75%;
+}
+.save-btn {
+  display: flex;
+  justify-content: center;
+  margin: 15%;
+}
+
+.ques-div {
+  margin: 40px 0;
+}
+
+.savedDeet-div {
+  border: solid 2px rgba(225, 84, 20, 1);
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-left: 20px;
+  /* width: 100%; */
+}
+
+.edit-details-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px 40px 20px;
+}
+
+@media (max-width: 426px) {
+  .dash-super {
+    width: 90%;
+  }
+  .dash-mainy {
+    display: block;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  * {
+    font-size: 1rem;
+  }
+  .dash-main-left {
+    width: 100%;
+  }
+  .dash-left-div {
+    width: 100%;
+    margin: 0;
+  }
+
+  .dash-vector {
+    display: none;
+    width: 0;
+  }
+  .dash-layer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .dash-right-div {
+    margin-top: 40px;
+  }
+  .saved-table-div {
+    width: 100%;
+    font-size: 1.05rem;
+  }
+}
+
+.LOGONEW {
+  max-width: 50%;
+  margin: 10px 180px;
+}

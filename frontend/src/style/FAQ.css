@@ -1,0 +1,67 @@
+ 
+
+.homeFAQDiv {
+    display: flex;
+    background: rgba(225, 84, 20, 1);
+    overflow: hidden;
+    
+  }
+  
+  .vectorFAQDiv {
+    z-index: 100;
+    width: 20%;
+    height: 10%;
+    overflow: hidden;
+  }
+  
+  .vector_rightFAQDiv {
+    background-color: white;
+    width: 75%;
+  }
+
+  .AccordionBody{
+    font-size: 1.2rem !important;
+  }
+
+  .FAQHeader{
+    text-align: center;
+    margin: 2%;
+  }
+  
+  
+  
+  
+  
+  
+  .footer{
+    text-align: center;
+  
+  }
+  
+  .contactBoxFAQDiv {
+    margin: 10px 20px 20px 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+  }
+  
+  .AccordionBodyFAQDiv{
+    margin: 20px;
+    margin-right: 50px;
+    
+  }
+  
+  .mainFAQDiv{
+    margin: 10px;
+    padding: 15px;
+  }FAQact-outerFAQDiv{
+    background: linear-gradient(90deg,#ed764b,#eba51e 28%,#f7e9b3 71%);
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 80%;
+    
+  }
+  
+  

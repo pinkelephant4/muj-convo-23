@@ -1,0 +1,24 @@
+.feedback-layer {
+  display: flex;
+  background: rgba(225, 84, 20, 1);
+}
+
+.feedback-super {
+  background-color: white;
+  width: 75%;
+}
+
+.feedback-mainy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5%;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.css-dmmspl-MuiFormGroup-root {
+  border: solid;
+  padding: 30px;
+  border-radius: 20px;
+}

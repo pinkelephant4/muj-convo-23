@@ -1,0 +1,126 @@
+.carousel-login {
+  width: 60vw;
+
+  /* position: relative; */
+  /* right: 0; */
+  float: right;
+}
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+.login-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 100vh;
+  padding-left: 3rem;
+  width: 40vw;
+  z-index: 100;
+}
+.container {
+  /* width: 470px; */
+  height: 56px;
+  margin-bottom: 1rem;
+  margin: 1rem auto;
+}
+input,
+select {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0);
+  color: #070707;
+  font-family: Century;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0.5rem 0.9rem;
+  margin: 0 auto;
+}
+select {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+
+  border: 1px solid #333;
+  font-family: inherit;
+  /** for the dropdown indicator */
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+}
+.wh-curve {
+  position: absolute;
+  width: 330px;
+
+  top: 0;
+  left: 38vw;
+}
+.all-txt {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-content: center;
+  padding-top: 60px;
+}
+
+.all-txt h1,
+.all-txt p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.all-txt h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.btn-all {
+  width: 140px;
+  height: 3.5rem;
+  border-radius: 25px;
+  border: 1px solid #000;
+  background: #211e1f;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-family: Century Gothic;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 2rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.login-p {
+  margin-top: 0.25rem;
+  font-family: Century Gothic;
+  font-size: 20px;
+  margin: 0.75rem auto;
+  cursor: pointer;
+  position: relative;
+}
+.login-p span {
+  font-weight: 700;
+  color: #070707;
+}
+.login-p::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.login-p:hover::after {
+  width: 100%;
+}
+.css-wnkddu-MuiPaper-root-MuiAlert-root {
+  position: absolute;
+  z-index: 100000;
+}

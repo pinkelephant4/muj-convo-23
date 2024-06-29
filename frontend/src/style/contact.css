@@ -1,0 +1,86 @@
+ 
+
+.homeContactDiv {
+  display: flex;
+  background: rgba(225, 84, 20, 1);
+  overflow: hidden;
+}
+
+.vectorContactDiv {
+  z-index: 100;
+  width: 20%;
+  height: 10%;
+  overflow: hidden;
+}
+
+.vector_rightContactDiv {
+  background-color: white;
+  width: 75%;
+}
+
+.nav {
+  /* background-color: coral; */
+  height: 7%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 70%;
+  padding: 10px;
+  margin-left: 20px;
+}
+.nav-btn-div {
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  padding: 10px;
+  margin-right: 25px;
+  font-size: x-large;
+}
+
+.footer{
+  text-align: center;
+
+}
+
+.contactBoxContactDiv {
+  margin: 10px 20px 20px 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.AccordionBodyContactDiv{
+  margin: 20px;
+  margin-right: 50px;
+
+}
+
+.mainContactDiv{
+  margin: 10px;
+  padding: 15px;
+}
+
+.contact-outerContactDiv{
+  background: linear-gradient(90deg,#ed764b,#eba51e 28%,#f7e9b3 71%);
+  margin: 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 80%;
+  
+}
+
+.contactHeader{  
+    text-align: center;
+    margin: 2%;
+}
+
+.AccordionBody{
+  font-size: 1.8rem !important;
+}
