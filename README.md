@@ -1,4 +1,34 @@
 
+# MUJ Convocation Portal
+
+Welcome to the official GitHub repository for the MUJ Convocation Portal. This project was developed, maintained, and handled for the 10th Convocation of Manipal University Jaipur to streamline the registrations and payments for over 2000 graduates.
+
+## Features
+
+- User Registration: Secure and straightforward registration process for students.
+- Payment Gateway Integration: Easy and safe online payment process.
+- Admin Panel: Manage registrations, payments, and generate reports.
+- Email Notifications: Automated email confirmations and reminders.
+- Responsive Design: Optimized for use on both desktop and mobile devices.
+- Authentication and Authorization: Secure login and role-based access using JWT.
+- Dues Collection: Efficient management of dues and payment statuses.
+- Data Collection: Organized data management for registrations.
+- Registration and Login: Secure registration and login functionality for users.
+- Automated Emails: Sending passwords, payment confirmations, and other notifications to users automatically.
+- Admin Portal for Dues Management: Admin can add student dues, which must be cleared before making a payment and registering for the convocation.
+- Payment Integration: Seamless payment process using PayU API.
+
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Payment Gateway: PayU API
+- Authentication and Authorization: JWT (JSON Web Tokens)
+- Email Service: SendGrid
+- Cloud Storage: Cloudinary
+- Hosting: Firebase
+- Other: Bootstrap, jQuery
+
 ## Installation
 
 To set up the project locally, follow these steps:
