@@ -67,6 +67,7 @@ const {
 
 const sendEmail = async (options) => {
   try {
+
     let transporter = nodemailer.createTransport({
       host: 'smtp.hostinger.com',
       port: 465,
@@ -85,6 +86,7 @@ const sendEmail = async (options) => {
       text: options.message, // plain text body
       html: options.html, // html body
     });
+
   } catch (err) {
     throw new Error(err);
   }

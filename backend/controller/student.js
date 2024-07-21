@@ -175,6 +175,60 @@ exports.getUnpaidStudents = asyncHandler(async (req, res, next) => {
   });
 });
 
+exports.updateRegistrationStatus = asyncHandler(async (req, res, next) => {
+  // console.log('updateRegistrationStatus');
+  const reg_no = req.body.reg_no;
+  const companions = req.body.companions;
+  const attending = req.body.attending;
+  const student = await Student.findOne({ reg_no });
+  if (!student) {
+    return next(new ErrorResponse('Could not find student', 404));
+  }
+  // console.log(reg_no, companions, attending, student);
+  if (attending === "inPerson") {
+    student.companions = companions;
+  } else {
+    student.companions = 'NA';
+  }
+  await student.save();
+
+  if (attending === "courier") {
+
+    const message =
+      'You have selected the option to collect the degree certificate through courier.';
+    await sendEmail({
+      email: student.email,
+      subject: 'Registration successful',
+      message: message,
+      html: courierTemplate(),
+
+    });
+
+  } else {
+    //change date
+    let date = '30th February';
+
+    const message =
+      `You have selected the option to collect the degree certificate in person on ${date} 2024 along with ${student.companions} companions. Thereby your registration for 11th MUJ Convocation is successful. Please do not login again.`;
+    await sendEmail({
+      email: student.email,
+      subject: 'Registration Successful',
+      message: message,
+      html: inPersonTemplate(date, student.companions),
+    });
+
+  }
+
+  res.status(200).json({
+    message: `Student registration successful`,
+    student: student,
+    reg_no,
+    companions,
+    attending
+  });
+
+});
+
 //TODO
 exports.updateStudentPaymentStatus = asyncHandler(async (req, res, next) => {
   const reg_no = req.params.id;

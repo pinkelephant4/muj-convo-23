@@ -37,6 +37,11 @@ Router.put(
   studentController.updateStudentPaymentStatus
 );
 
+Router.put(
+  '/update-registration-status',
+  studentController.updateRegistrationStatus
+);
+
 Router.delete(
   '/delete-student-by-reg-no/:id',
   studentController.deleteStudentByRegNo

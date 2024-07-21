@@ -82,7 +82,7 @@ app.use('/student', studentRoute);
 app.use('/due', dueRoute);
 app.use('/feedback', feedbackRoute);
 
-app.use('/',(req,res)=>{res.send("all good")})
+// app.use('/',(req,res)=>{res.send("all good")})
 
 app.use(require('./middleware/error'));
 
