@@ -752,7 +752,7 @@ module.exports.dueTemplate = (dues) => {
                                     <p>Before logging in to the portal, you are required to clear your dues. The details of your dues are given below. Please follow the link to clear your dues: </p>
 
 
-                                 <a href="https://www.payumoney.com/customer/paymentOptionsGroup/#/1011F8DA7C0FCB5EC870FBB52B99DD08/Graduates2022">https://www.payumoney.com/customer/paymentOptionsGroup/#/1011F8DA7C0FCB5EC870FBB52B99DD08/Graduates2022</a>
+                                 <a href="https://pay.webfront.in/webfront/#/merchantinfo/manipal-university-jaipur/7018">https://pay.webfront.in/webfront/#/merchantinfo/manipal-university-jaipur/7018</a>
                                 <p>For due in hostel, please contact</p>
                                 <p style="font-weight: bold">Mr. Ashish Dosaya</p>
                                 <p style="font-weight: bold">Mob No: 9413749923 / 8976751015</p>

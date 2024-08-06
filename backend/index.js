@@ -1,4 +1,4 @@
-// const functions = require('firebase-functions');
+const functions = require('firebase-functions');
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -102,7 +102,7 @@ const PORT = NEW_PORT || 5000;
 //   console.log(`Server Started on Port ${PORT}`.yellow.bold)
 // );
 
-// Handle unhandled promise rejections
+// Handle unhandled promise rejectio  ns
 process.on('unhandledRejection', (err, promise) => {
   console.log(`Error: ${err.message}`.red);
   // Close server & exit process

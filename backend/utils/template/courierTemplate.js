@@ -442,7 +442,7 @@ module.exports.courierTemplate = () => {
                               "
                             >
                               <span style="font-size: 22px"
-                                ><strong>MUJ Convocation 2023</strong></span
+                                ><strong>MUJ Convocation 2024</strong></span
                               >
                             </p>
                           </div>
@@ -719,7 +719,7 @@ module.exports.courierTemplate = () => {
                               "
                             >
                               <span style="color: #fd9800; font-size: 18px"
-                                ><strong>Registration Successful</strong></span
+                                ><strong>Courrier Payment Link</strong></span
                               >
                             </p>
                           </div>
@@ -764,13 +764,12 @@ module.exports.courierTemplate = () => {
                            <span style="font-size: 16px">
                              <strong>
                             <p>Dear Graduate,</p>
-                            <p>Congratulations!!</p>
-                            <p>Your Registration for Convocation 2023 at Manipal University is successful. </p>
-                            <p>You have selected the option to collect the degree certificate through courier. We will dispatch your degree after the convocation.</p>
-                            <p>We will miss you at Convocation 2023.</p>
-                            <p>In case you need, Official Transcript (academic consolidated statement) or Migration Certificate please follow the instruction given on following link: </p>
-                            <a href="https://jaipur.manipal.edu/muj/academics/Examination-Section-Muj/info-to-the-students.html">https://jaipur.manipal.edu/muj/academics/Examination-Section-Muj/info-to-the-students.html</a> <br />
-                            <p>Thanks,</p>
+                            <p>You have opted to get your degree through courier. Please follow the link to pay for courier charges:</p>
+                            <a href="https://rzp.io/l/6mg4JziQf">https://rzp.io/l/6mg4JziQf</a> <br />
+                
+                            <p>We will confirm the payment and send the registration confirmation mail in 2-3 days.</p>
+                        
+                            <p>Best Wishes</p>
                             <p>Manipal University Jaipur</p>
                             </strong>     
                             </span>  

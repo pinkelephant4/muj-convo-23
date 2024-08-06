@@ -442,7 +442,7 @@ module.exports.inPersonTemplate = (day, companions) => {
                               "
                             >
                               <span style="font-size: 22px"
-                                ><strong>MUJ Convocation 2023</strong></span
+                                ><strong>MUJ Convocation 2024</strong></span
                               >
                             </p>
                           </div>
@@ -765,9 +765,9 @@ module.exports.inPersonTemplate = (day, companions) => {
                              <strong>
                             <p>Dear Graduate,</p>
                             <p>Congratulations!!</p>
-                            <p>Your Registration for Convocation 2023 at Manipal University is successful. </p>
-                            <p>You have selected the option to collect the degree certificate in person on ${day} 2023 along with ${companions} companions. </p>
-                            <p>Can't wait to see you at Convocation 2023! </p>
+                            <p>Your Registration for Convocation 2024 at Manipal University is successful. </p>
+                            <p>You have selected the option to collect the degree certificate in person on ${day} 2024 along with ${companions} companions. </p>
+                            <p>Can't wait to see you at Convocation 2024! </p>
                             <p>In case you need, Official Transcript (academic consolidated statement) or Migration Certificate please follow the instruction given on following link: </p>
                             <a href="https://jaipur.manipal.edu/muj/academics/Examination-Section-Muj/info-to-the-students.html">https://jaipur.manipal.edu/muj/academics/Examination-Section-Muj/info-to-the-students.html</a> <br />
                             <p>Thanks,</p>
