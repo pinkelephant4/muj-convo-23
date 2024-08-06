@@ -719,7 +719,7 @@ module.exports.courierTemplate = () => {
                               "
                             >
                               <span style="color: #fd9800; font-size: 18px"
-                                ><strong>Payment Still Pending</strong></span
+                                ><strong>Convocation Registration-Payment Pending</strong></span
                               >
                             </p>
                           </div>
