@@ -188,10 +188,10 @@ exports.updateRegistrationStatus = asyncHandler(async (req, res, next) => {
   // console.log(reg_no, companions, attending, student);
   if (attending === "inPerson") {
     student.companions = companions;
-    student.day =date;
+    student.day = date;
   } else {
     student.companions = 'NA';
-    student.day ='NA';
+    student.day = 'NA';
 
   }
   await student.save();
