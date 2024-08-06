@@ -180,6 +180,7 @@ exports.updateRegistrationStatus = asyncHandler(async (req, res, next) => {
   const reg_no = req.body.reg_no;
   const companions = req.body.companions;
   const attending = req.body.attending;
+  const date = req.body.date;
   const student = await Student.findOne({ reg_no });
   if (!student) {
     return next(new ErrorResponse('Could not find student', 404));
@@ -187,8 +188,11 @@ exports.updateRegistrationStatus = asyncHandler(async (req, res, next) => {
   // console.log(reg_no, companions, attending, student);
   if (attending === "inPerson") {
     student.companions = companions;
+    student.day =date;
   } else {
     student.companions = 'NA';
+    student.day ='NA';
+
   }
   await student.save();
 
@@ -206,7 +210,6 @@ exports.updateRegistrationStatus = asyncHandler(async (req, res, next) => {
 
   } else {
     //change date
-    let date = '30th February';
 
     const message =
       `You have selected the option to collect the degree certificate in person on ${date} 2024 along with ${student.companions} companions. Thereby your registration for 11th MUJ Convocation is successful. Please do not login again.`;

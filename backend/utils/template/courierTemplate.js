@@ -719,7 +719,7 @@ module.exports.courierTemplate = () => {
                               "
                             >
                               <span style="color: #fd9800; font-size: 18px"
-                                ><strong>Courrier Payment Link</strong></span
+                                ><strong>Payment Still Pending</strong></span
                               >
                             </p>
                           </div>
