@@ -769,7 +769,7 @@ module.exports.inPersonTemplate = (day, companions) => {
                             <p>You have selected the option to collect the degree certificate in person on ${day} 2024 along with ${companions} companions. </p>
                             <p>Can't wait to see you at Convocation 2024! </p>
                             <p>In case you need, Official Transcript (academic consolidated statement) or Migration Certificate please follow the instruction given on following link: </p>
-                            <a href="https://jaipur.manipal.edu/muj/academics/Examination-Section-Muj/info-to-the-students.html">https://jaipur.manipal.edu/muj/academics/Examination-Section-Muj/info-to-the-students.html</a> <br />
+                            <a href="https://jaipur.manipal.edu/examination.php#information-to-students">https://jaipur.manipal.edu/examination.php#information-to-students</a> <br />
                             <p>Thanks,</p>
                             <p>Manipal University Jaipur</p>
                             </strong>     

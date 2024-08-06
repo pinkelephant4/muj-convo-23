@@ -753,9 +753,7 @@ module.exports.dueTemplate = (dues) => {
 
 
                                  <a href="https://pay.webfront.in/webfront/#/merchantinfo/manipal-university-jaipur/7018">https://pay.webfront.in/webfront/#/merchantinfo/manipal-university-jaipur/7018</a>
-                                <p>For due in hostel, please contact</p>
-                                <p style="font-weight: bold">Mr. Ashish Dosaya</p>
-                                <p style="font-weight: bold">Mob No: 9413749923 / 8976751015</p>
+                                
                                 <p style="font-weight: 600">After clearing your dues, please check back in 2-3 days.</p>
                                   </span
                                 >
@@ -809,17 +807,16 @@ module.exports.dueTemplate = (dues) => {
                            <tbody>
                         
                             ${dues
-                              .map((due, i) => {
-                                return `<tr key=${i}>
+      .map((due, i) => {
+        return `<tr key=${i}>
                                 <th>${i + 1}</th>
                                   <th>${due.department}</th>
                                   <th>${due.amount_due}</th>
-                                  <th style='word-break: break-word;'>${
-                                    due.details
-                                  }</th>
+                                  <th style='word-break: break-word;'>${due.details
+          }</th>
                                 </tr>`;
-                              })
-                              .join('')}
+      })
+      .join('')}
                               </tbody>
                             </table>
                              
