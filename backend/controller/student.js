@@ -257,7 +257,7 @@ exports.updateStudentPaymentStatus = asyncHandler(async (req, res, next) => {
       'You have selected the option to collect the degree certificate through courier.';
     await sendEmail({
       email: student.email,
-      subject: 'Registration successful',
+      subject: 'Courier Payment Pending',
       message: message,
       html: courierTemplate(),
     });
