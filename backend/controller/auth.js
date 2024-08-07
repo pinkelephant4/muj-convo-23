@@ -391,7 +391,7 @@ exports.resetPassword = asyncHandler(async (req, res, next) => {
 exports.sendConfirmationEmail = asyncHandler(async (req, res, next) => {
   // // const { email } = req.body;
 
-//changes
+  //changes
   // const message = `You have selected the option to collect the degree certificate in person, thereby you don't need to pay anything and your registration for 9th MUJ Convocation is successful. Please do not login again.`;
   // await sendEmail({
   //   email: req.user.email,
