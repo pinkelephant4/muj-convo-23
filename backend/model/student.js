@@ -32,7 +32,7 @@ const StudentSchema = new Schema(
       // required: [true, 'specialization is required'],
     },
     reg_no: {
-      type: Number,
+      type: String,
       required: [true, 'registration number is required'],
       unique: true,
       maxlength: 9,

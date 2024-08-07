@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const DueSchema = new Schema(
   {
     reg_no: {
-      type: Number,
+      type: String,
       required: true,
     },
     department: {
