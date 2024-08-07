@@ -47,8 +47,8 @@ const StudentSchema = new Schema(
       // maxlength: 1,
     },
     batch: {
-      type: Number,
-      required: [true, 'batch is requred'],
+      type: String,
+      required: [true, 'batch is required'],
     },
     credits: {
       type: Number,
