@@ -181,6 +181,16 @@ exports.updateRegistrationStatus = asyncHandler(async (req, res, next) => {
   const companions = req.body.companions;
   const attending = req.body.attending;
   const date = req.body.date;
+
+  if (date == "19th October") {
+    return res.status(405).json({
+      message: `Selected date not available`,
+      student: student,
+      reg_no,
+      companions,
+      attending
+    });
+  }
   const student = await Student.findOne({ reg_no });
   if (!student) {
     return next(new ErrorResponse('Could not find student', 404));
