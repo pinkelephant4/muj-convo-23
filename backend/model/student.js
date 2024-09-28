@@ -35,7 +35,7 @@ const StudentSchema = new Schema(
       type: String,
       required: [true, 'registration number is required'],
       unique: true,
-      maxlength: 9,
+      maxlength: 20,
     },
     student_name: {
       type: String,
