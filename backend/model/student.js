@@ -141,7 +141,7 @@ const StudentSchema = new Schema(
 // Sign JWT and return
 StudentSchema.methods.getSignedJwtToken = function () {
   return jwt.sign({ id: this._id }, JWT_SECRET, {
-    expiresIn: 36000,
+    expiresIn: 3600,
   });
 };
 

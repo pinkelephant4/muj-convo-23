@@ -38,7 +38,7 @@ DepartmentSchema.pre('save', async function (next) {
 // Sign JWT and return
 DepartmentSchema.methods.getSignedJwtToken = function () {
   return jwt.sign({ id: this._id }, JWT_SECRET, {
-    expiresIn: 36000,
+    expiresIn: 3600,
   });
 };
 
