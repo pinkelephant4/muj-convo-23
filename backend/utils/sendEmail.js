@@ -74,7 +74,8 @@ const sendEmail = async (options) => {
       secure: true, // true for 465, false for other ports
       auth: {
         user: 'info@mujconvocation.in', // generated ethereal user
-        pass: 'Mujmuj@2020', // generated ethereal password
+        // pass: 'Mujmuj@2020', // generated ethereal password
+        pass: 'Mujmuj@2024', // generated ethereal password
       },
     });
 
